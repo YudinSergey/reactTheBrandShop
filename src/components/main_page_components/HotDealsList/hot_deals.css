@@ -1,0 +1,175 @@
+.hot_deals{
+    display:flex;
+  }
+  
+  .hot_deals .half{
+    width:49.12280701754386%;
+  }
+  
+  .hot_deals .first_half{
+    margin-right: 1.754385964912281%;
+  }
+  
+  .hot_deal{
+    width:100%;
+    padding-top:26px;
+  
+  }
+  
+  .hot_deals .hot_deal_for_men{
+    background:url("/img/hot_deals_for_men.png")no-repeat;
+    margin-bottom:20px;
+  }
+  
+  .hot_deals .hot_deal_accesories{
+    background:url("/img/hot_deals_accesories.png")no-repeat;
+    background-color: #dadad2;
+    background-position: top right;
+  }
+  
+  .hot_deals .hot_deal_for_woman{
+    background:url("/img/hot_deals_for_women.png")no-repeat;
+    margin-bottom:20px;
+  }
+  
+  .hot_deals .hot_deal_for_kids{
+    background: url("/img/hot_deals_for_kids.png")no-repeat;
+  }
+  
+  .hot_deals .hot_deal_big{
+    height:542px;
+  }
+  
+  .hot_deals .hot_deal_little{
+    height:261px;
+  }
+  
+  .hot_deals .hot_deal .hot_deal_label{
+    background-color: #ffffff;
+    padding-top:16px;
+    padding-left:19px;
+    padding-bottom:16px;
+  }
+  
+  .hot_deals .hot_deal_for_men .hot_deal_label{
+    width:31.25%;
+  }
+  
+  .hot_deals .hot_deal_accesories .hot_deal_label{
+    width:40.178571428571%;
+  }
+  
+  .hot_deals .hot_deal_for_woman .hot_deal_label{
+    width:28.928571428571%;
+  }
+  
+  .hot_deals .hot_deal_for_kids .hot_deal_label{
+    width:33.571428571428%;
+  }
+  
+  .hot_deals .hot_deal .hot_deal_label p:first-child{
+    color: #222222;
+    font-family: "Lato - Black";
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.45px;
+    line-height: 14px;
+    margin-bottom:14px;
+  }
+  
+  .hot_deals .hot_deal .hot_deal_label p:nth-child(2){
+    color: #f16d7f;
+    font-size: 30px;
+    letter-spacing: 0.75px;
+    font-family: "Lato - Black";
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 22px;
+  }
+
+  @media all and (max-width:1155px) {
+
+    .hot_deals .hot_deal .hot_deal_label{
+        padding-right:5%;
+    }
+  
+    .hot_deals .hot_deal_for_men .hot_deal_label{
+        width:45%;
+    }
+  
+    .hot_deals .hot_deal_accesories .hot_deal_label{
+        width:55%;
+    }
+  
+    .hot_deals .hot_deal_for_woman .hot_deal_label{
+        width:45%;
+    }
+  
+    .hot_deals .hot_deal_for_kids .hot_deal_label{
+        width:45%;
+    }
+  
+    .hot_deals .hot_deal_for_men{
+        background:url("/img/hot_deals_for_men.png")no-repeat;
+        margin-bottom:20px;
+        background-position:100%,0%;
+    }
+  
+    .hot_deals .hot_deal_accesories{
+        background:url("/img/hot_deals_accesories.png")no-repeat;
+        background-color: #dadad2;
+        background-position: 120%, 100%;
+    }
+  }
+
+  @media all and (max-width:900px) {
+
+    .hot_deals .hot_deal .hot_deal_label{
+        padding-left:10px;
+    }
+  
+    .hot_deals .hot_deal_for_men .hot_deal_label{
+        width:45%;
+    }
+  
+    .hot_deals .hot_deal_accesories .hot_deal_label{
+        width:57%;
+    }
+  
+    .hot_deals .hot_deal_for_woman .hot_deal_label{
+        width:40%;
+    }
+  
+    .hot_deals .hot_deal_for_kids .hot_deal_label{
+        width:48%;
+    }
+  }
+
+  @media all and (max-width:850px) {
+
+    .hot_deals .hot_deal_accesories{
+        background-position: 0;
+    }
+  
+    .hot_deals .hot_deal .hot_deal_label{
+        background-color:transparent;
+    }
+  
+    .hot_deals .hot_deal_for_men .hot_deal_label{
+        width:100%;
+    }
+  
+    .hot_deals .hot_deal_accesories .hot_deal_label{
+        width:100%;
+    }
+  
+    .hot_deals .hot_deal_for_woman .hot_deal_label{
+        width:100%;
+    }
+  
+    .hot_deals .hot_deal_for_kids .hot_deal_label{
+        width:100%;
+    }
+  }
+  

@@ -1,0 +1,227 @@
+.subscribe_block{
+    height:438px;
+    background: url("/img/subscribe_block_image.png")no-repeat;
+    background-position:45%,0%;
+    position:relative;
+    margin-bottom:109px;
+}
+
+.subscribe_block_background{
+  height:438px;
+  width:100%;
+  background-color: #f2f2f2;
+  opacity: 0.3;
+  position:absolute;
+}
+
+.subscribe_container{
+  display:flex;
+}  
+
+  
+.subscribe_container .half_to_comment{
+  width:50%;
+  position:relative;
+  padding-top:111px;
+  padding-right:3.4%;
+}
+  
+.subscribe_block .half_to_comment .comment{
+  display:flex;
+  margin-bottom:41px;
+}
+  
+.subscribe_block .half_to_comment .comment .photo{
+  width: 83px;
+  height: 83px;
+  margin-right:28px;
+}
+  
+.subscribe_block .half_to_comment .comment .comment_text .comment_content{
+  color: #222224;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 26px;
+  letter-spacing: 0.4px;
+  padding-top:5px;
+  margin-bottom:15px;
+}
+  
+.subscribe_block .half_to_comment .comment .comment_text .author_name{
+  color: #f16d7f;
+  font-size: 16px;
+  font-family: "Lato - Bold";
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  line-height: 11px;
+  margin-bottom:7px;
+}
+  
+.subscribe_block .half_to_comment .comment .comment_text .author_from{
+  color: #222224;
+  font-family: "Lato Light";
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: 0.3px;
+  line-height: 11px;
+}
+  
+.subscribe_block .half_to_comment .slider{
+  display: flex;
+  width:140px;
+  justify-content: space-between;
+  margin-left:22%;
+}
+  
+.subscribe_block .half_to_comment .slider .slider_item{
+  width: 38px;
+  height: 4px;
+  background-color: #d6d6d6;
+}
+  
+.subscribe_block .half_to_comment .slider .active_item{
+  background-color: #f16d7f;
+}
+  
+.subscribe_block .half_to_subscribe_field{
+  width:50%;
+  position:relative;
+  padding-top:148px;
+  padding-left:7.8%;
+}
+  
+.subscribe_block .half_to_subscribe_field .half_to_subscribe_field_headline{
+  color: #222224;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  max-width:65%;
+  margin-left:8%;
+  text-align: center;
+  margin-bottom:32px;
+}
+  
+.subscribe_block .half_to_subscribe_field .half_to_subscribe_field_headline h4{
+  font-size: 24px;
+  letter-spacing: 0.6px;
+  line-height: 17px;
+  text-transform: uppercase;
+  margin-bottom:12px;
+}
+  
+.subscribe_block .half_to_subscribe_field .half_to_subscribe_field_headline p{
+  letter-spacing: 0.35px;
+  line-height: 15px;
+}
+  
+.subscribe_block .half_to_subscribe_field .subscribe_field{
+  display:flex;
+  align-items: center;
+  width:99%;
+}
+  
+.subscribe_block .half_to_subscribe_field .subscribe_field input{
+  height: 46px;
+  width:60%;
+  background-color: #e1e1e1;
+  border-radius: 23px 0 0 23px;
+  opacity: 0.67;
+  color: #222224;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 54px;
+  letter-spacing: 0.35px;
+  padding-left:28px;
+  padding-right:28px;
+}
+  
+  .subscribe_block .half_to_subscribe_field .subscribe_field input:focus{
+    outline:0;
+  }
+  
+  .subscribe_block .half_to_subscribe_field .subscribe_field .subscribe_button{
+    width: 104px;
+    height: 46px;
+    border-radius: 0 23px 23px 0;
+    background-color: #f16d7f;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 54px;
+    line-height: 10px;
+    letter-spacing: 0.35px;
+    padding-left:21px;
+    padding-top:18px;
+  }
+
+  @media all and (max-width:1155px){
+    .subscribe_block .half_to_subscribe_field .half_to_subscribe_field_headline{
+      max-width:80%;
+    }
+
+    .subscribe_block .half_to_subscribe_field .subscribe_field{
+      width:100%;
+   }
+
+    .subscribe_block .half_to_subscribe_field .subscribe_field input{
+      width:80%;
+    }
+  }
+
+
+  @media all and (max-width:950px){
+    .subscribe_block .half_to_subscribe_field .half_to_subscribe_field_headline{
+      max-width:90%;
+    }
+  }
+
+  @media all and (max-width:750px) {
+
+    .subscribe_block .half_to_comment{
+        width:50%;
+        position:relative;
+        padding-top:50px;
+        padding-left:5%;
+        padding-right:3.4%;
+        padding-bottom:20px;
+    }
+  
+    .subscribe_block .half_to_subscribe_field{
+        width:50%;
+        position:relative;
+        padding-top:148px;
+        padding-left:5%;
+    }
+  
+    .subscribe_block .half_to_subscribe_field .half_to_subscribe_field_headline{
+        color: #222224;
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: 400;
+        max-width:90%;
+        margin-left:8%;
+        text-align: center;
+        margin-bottom:32px;
+    }
+  }
+
+  @-moz-document url-prefix() {
+  
+    .subscribe_block .half_to_subscribe_field .subscribe_field input{
+      height: 46px;
+      background-color: #e1e1e1;
+      border-radius: 23px 0 0 23px;
+      opacity: 0.67;
+      color: #222224;
+      font-family: Lato;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 54px;
+      letter-spacing: 0.35px;
+      padding-left:28px;
+      padding-right:28px;
+    }
+  }

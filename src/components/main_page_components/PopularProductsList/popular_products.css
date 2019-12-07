@@ -1,0 +1,111 @@
+.popular_products{
+    padding-top:100px;
+    margin-bottom:113px;
+  }
+  
+  .popular_products h2{
+    color: #222222;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    text-align: center;
+    margin-bottom:16px;
+  }
+  
+  .popular_products p{
+    color: #9f9f9f;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.35px;
+    text-align: center;
+  }
+  
+  
+  .popular_products .browse_all_product_button{
+    width: 212px;
+    height: 48px;
+    background-color: #f16d7f;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 11px;
+    letter-spacing: 0.4px;
+    margin:0 auto;
+    padding-left:24px;
+    padding-right:19px;
+    padding-top:18px;
+  }
+  
+  .popular_products .browse_all_product_button img{
+    margin-left:7px;
+    margin-bottom:1px;
+  }
+
+  @media all and (max-width:900px) {
+
+    .popular_products_section .product:first-child .product_image{
+        background-position:center;
+        background-size:cover;
+    }
+  
+    .popular_products_section .product:nth-child(2) .product_image{
+        background-position:center;
+        background-size:cover;
+    }
+  
+    .popular_products_section .product:nth-child(3) .product_image{
+        background-position:center;
+        background-size:cover;
+    }
+  
+    .popular_products_section .product:nth-child(4) .product_image{
+        background-position:center;
+        background-size:cover;
+    }
+  
+    .popular_products_section .product:nth-child(5) .product_image{
+        background-position:center;
+        background-size:cover;
+    }
+  
+    .popular_products_section .product:nth-child(6) .product_image{
+        background-position:center;
+        background-size:cover;
+    }
+  
+    .popular_products_section .product:nth-child(7) .product_image{
+        background-position:center;
+        background-size:cover;
+    }
+  
+    .popular_products_section .product:nth-child(8) .product_image{
+        background-position:center;
+        background-size:cover;
+    }
+  }
+
+  @media all and (max-width:750px) {
+
+    .popular_products{
+        padding-top:50px;
+        margin-bottom:50px;
+    }
+  }
+
+  @-moz-document url-prefix() {
+
+    .popular_products_section .product .product_image .hover_product_image_block .add_to_cart{
+        padding-left:5px;
+        padding-right:5px;
+    }
+  
+    .popular_products .browse_all_product_button{
+        padding-left:13px;
+        padding-right:13px;
+    }
+  }

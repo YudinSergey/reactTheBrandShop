@@ -1,0 +1,206 @@
+{
+    "products":[
+        {
+            "id":"1",
+            "name":"Mango  People  T-shirt",
+            "price":"52.00",
+            "src":"/img/product_one.png"
+        },
+        {
+            "id":"2",
+            "name":"Mango  People  T-shirt",
+            "price":"52.00",
+            "src":"/img/product_two.png"
+        },
+        {
+            "id":"3",
+            "name":"Mango  People  T-shirt",
+            "price":"52.00",
+            "src":"/img/product_three.png"
+        },
+        {
+            "id":"4",
+            "name":"Mango  People  T-shirt",
+            "price":"52.00",
+            "src":"/img/product_four.png"
+        },
+        {
+            "id":"5",
+            "name":"Mango  People  T-shirt",
+            "price":"552.00",
+            "src":"/img/product_five.png"
+        },
+        {
+            "id":"6",
+            "name":"Mango  People  T-shirt",
+            "price":"52.00",
+            "src":"/img/product_six.png"
+        },
+        {
+            "id":"7",
+            "name":"Mango  People  T-shirt",
+            "price":"52.00",
+            "src":"/img/product_seven.png"
+        },
+        {
+            "id":"8",
+            "name":"Mango  People  T-shirt",
+            "price":"52.00",
+            "src":"/img/product_eight.png"
+        },
+        {
+            "id":"9",
+            "name":"Mango  People  T-shirt",
+            "price":"52.00",
+            "src":"/img/product_nine.png"
+        },
+        {
+            "id":"10",
+            "name":"Mango  People  T-shirt",
+            "price":"252.00",
+            "src":"/img/product_ten.png"   
+        },
+        {
+            "id":"11",
+            "name":"Mango  People  T-shirt",
+            "price":"52.00",
+            "src":"/img/product_eleven.png" 
+        },
+        {
+            "id":"12",
+            "name":"Mango  People  T-shirt",
+            "price":"52.00",
+            "src":"/img/product_twelve.png" 
+        },
+        {
+            "id":"13",
+            "name":"Mango  People  T-shirt",
+            "price":"152.00",
+            "src":"/img/product_thirteen.png" 
+        },
+        {
+            "id":"14",
+            "name":"Mango  People  T-shirt",
+            "price":"52.00",
+            "src":"/img/product_fourteen.png" 
+        }
+    ],
+    "categoryes":[
+        {
+            "id":"21",
+            "name":"Accesories"
+        },
+        {
+            "id":"22",
+            "name":"Bags"
+        },
+        {
+            "id":"23",
+            "name":"Denim"
+        },
+        {
+            "id":"24",
+            "name":"Hoodies & Sweatshirts"
+        },
+        {
+            "id":"25",
+            "name":"Jackets & Coats"
+        },
+        {
+            "id":"26",
+            "name":"Pants"
+        },
+        {
+            "id":"27",
+            "name":"Polos"
+        },
+        {
+            "id":"28",
+            "name":"Shirts"
+        },
+        {
+            "id":"29",
+            "name":"Shoes"
+        },
+        {
+            "id":"210",
+            "name":"Shorts"
+        },
+        {
+            "id":"211",
+            "name":"Sweaters & Knits"
+        },
+        {
+            "id":"212",
+            "name":"T-Shirts"
+        },
+        {
+            "id":"213",
+            "name":"Tanks"
+        }
+    ],
+    "brands":[
+        {
+            "id":"31",
+            "name":"Adidas"
+        },
+        {
+            "id":"32",
+            "name":"Amarea"
+        },
+        {
+            "id":"33",
+            "name":"Aroma Jazz"
+        },
+        {
+            "id":"34",
+            "name":"Bacio Bella"
+        },
+        {
+            "id":"35",
+            "name":"Benini"
+        },
+        {
+            "id":"36",
+            "name":"Calvani"
+        },
+        {
+            "id":"37",
+            "name":"Cocos"
+        },
+        {
+            "id":"38",
+            "name":"Dali"
+        },
+        {
+            "id":"39",
+            "name":"El'Basco Toys"
+        },
+        {
+            "id":"310",
+            "name":"Lavamosco"
+        }
+    ],
+    "designers":[
+        {
+            "id":"41",
+            "name":"Alexander McQueen"
+        },
+        {
+            "id":"42",
+            "name":"Betsey Johnson"
+        },
+        {
+            "id":"43",
+            "name":"Calvin Klein"
+        },
+        {
+            "id":"44",
+            "name":"Carolina Herrera"
+        },
+        {
+            "id":"45",
+            "name":"Christian Dior"
+        }
+    ]
+}

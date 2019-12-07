@@ -1,0 +1,17 @@
+.main_part_container{
+    padding-top:59px;
+    display:flex;
+    margin-bottom:110px;
+}
+
+.top_filters_and_products{
+    padding-top:5px;
+    padding-left:50px;
+    width:78.684210526316%;
+}
+
+.paginator_and_view_all_button{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}

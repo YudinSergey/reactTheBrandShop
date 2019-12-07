@@ -1,0 +1,40 @@
+.profitable_item{
+    display:flex;
+    flex-wrap:wrap;
+    width:325px;
+    max-width:325px;
+    text-align:center;
+    padding-top:89px;
+    padding-bottom:114px;
+  }
+  
+  .profitable_item_image{
+    margin:0 auto;
+  }
+  
+  .profitable_item .profitable_item_image:first-child{
+    margin-bottom:24px;
+  }
+  
+  .profitable_item:nth-child(2) .profitable_item_image{
+    margin-bottom:20px;
+  }
+  
+  .profitable_item .content h2{
+    color: #fbfbfb;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    line-height: 16px;
+    margin-bottom:15px;
+  }
+  
+  .profitable_item .content p{
+    color: #fbfbfb;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.35px;
+  }

@@ -1,0 +1,73 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Lato - Black";
+  src: url("fonts/Lato-Black.ttf");
+}
+
+@font-face {
+  font-family: "Lato - Bold";
+  src: url("fonts/Lato-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("fonts/Lato-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Lato - Light";
+  src: url("fonts/Lato-Light.ttf");
+}
+
+a{
+  text-decoration:none;
+}
+
+li{
+  list-style-type: none;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.button{
+  display:block;
+}
+
+.container{
+  height:100%;
+  max-width: 1140px;
+  width:100%;
+  margin:0 auto;
+}
+
+/*----------------------------Media Quary----------------------------*/
+
+@media all and (max-width:1155px) {
+
+  .logo p:nth-child(3){
+      padding-top:8px;
+  }
+
+  .container{
+      padding-left:5%;
+      padding-right:5%;
+  }
+}
+/*----------------------------Media Quary----------------------------*/

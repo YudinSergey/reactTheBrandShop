@@ -1,0 +1,7 @@
+.profitable_items{
+    display:flex;
+    justify-content:space-between;
+    background-color: #222224;
+    padding-left:1.5%;
+    padding-right:1.5%;
+  }

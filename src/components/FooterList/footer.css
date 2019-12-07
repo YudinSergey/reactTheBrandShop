@@ -1,0 +1,65 @@
+.footer{
+    height: 79px;
+    background-color: #e6e6e6;
+  }
+  
+  .footer_container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer_container .socials{
+    display:flex;
+    width:192px;
+    justify-content: space-between;
+  }
+  
+  .footer_container .footer_copyright{
+    color: #7a7a7a;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    padding-bottom:3px;
+  }
+  
+  .footer_container .social{
+    width: 32px;
+    height: 32px;
+    background-color: #ffffff;
+  }
+  
+  .footer_container .social:hover{
+    background-color: #f16d7f;
+  }
+  
+  .footer_container .socials .fb{
+    background-image:url("/img/social_icon_fb.png");
+    background-repeat:no-repeat;
+    background-position: center;
+  }
+  
+  .footer_container .socials .twitter{
+    background-image:url("/img/social_icon_twitter.png");
+    background-repeat:no-repeat;
+    background-position: center;
+  }
+  
+  .footer_container .socials .jo{
+    background-image:url("/img/social_icon_jo.png");
+    background-repeat:no-repeat;
+    background-position: center;
+  }
+  
+  .footer_container .socials .p{
+    background-image:url("/img/social_icon_p.png");
+    background-repeat:no-repeat;
+    background-position: center;
+  }
+  
+  .footer_container .socials .google_plus{
+    background-image:url("/img/social_icon_google_plus.png");
+    background-repeat:no-repeat;
+    background-position: center;
+  }
